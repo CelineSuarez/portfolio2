@@ -1,0 +1,23 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "This is my portfolio playground.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CelineSuarez/portfolio2.git"
+  },
+  "author": "Celine Suarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CelineSuarez/portfolio2/issues"
+  },
+  "homepage": "https://github.com/CelineSuarez/portfolio2#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "nodemon": "^1.11.0"
+  }
+}
