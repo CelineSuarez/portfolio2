@@ -1,23 +1,10 @@
-// // server.js
-// var express = require('express');
-// var app = express();
-// var port = 8080;
-//
-// //route our app
-// var router = require('./app/routes');
-// app.use('/', router);
-//
-// // set static files
-// app.use(express.static(__dirname + '/public'));
-// // start the server
-// app.listen(port, function() {
-//   console.log('app started');
-// });
 // modules =================================================
 var express        = require('express');
 var app            = express();
 var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
+// grab the mongoose module
+var mongoose = require('mongoose');
 
 // configuration ===========================================
 
@@ -55,7 +42,7 @@ require('./app/routes')(app); // configure our routes
 app.listen(port);
 
 // shoutout to the user
-console.log('Magic happens on port ' + port + 'YEA BOOOIIIIII');
+console.log('Magic happens on port ' + port + ' YEA BOOOIIIIII');
 
 // expose app
 exports = module.exports = app;
