@@ -4,7 +4,7 @@
     "dependencies": {
         "font-awesome": "latest",
         "animate.css": "latest",
-        "angular": "1.4.14",
-        "angular-route": "1.4.14"
+        "angular": "latest",
+        "angular-route": "latest"
     }
 }
