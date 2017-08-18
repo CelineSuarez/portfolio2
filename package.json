@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/CelineSuarez/portfolio2#readme",
   "dependencies": {
+    "angular": "1.5.9",
+    "angular-ui-bootstrap": "^2.5.0",
     "body-parser": "^1.15.2",
     "express": "~4.5.1",
-    "nodemon": "^1.10.2",
-    "method-override" : "~2.0.2",
-    "angular": "1.5.9"
+    "method-override": "~2.0.2",
+    "mongoose": "^4.11.7",
+    "nodemon": "^1.10.2"
   }
 }
